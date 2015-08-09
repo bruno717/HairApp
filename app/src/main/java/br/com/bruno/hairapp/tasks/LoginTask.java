@@ -37,7 +37,7 @@ public class LoginTask extends AsyncTask<Void, Void, Boolean> {
         final String SOAP_ACTION = "http://ws/loginPessoa";
         final String NAMESPACE = "http://ws/";
         final String METHOD_NAME = "loginPessoa";
-        final String URL = new UrlServerConection().getUrlConection();
+        final String URL ="";// new UrlServerConection().getUrlConection();
 
         try {
             SoapObject soap = new SoapObject(NAMESPACE, METHOD_NAME);

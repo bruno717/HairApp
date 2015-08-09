@@ -37,7 +37,7 @@ public class FuncoesTask extends AsyncTask<Void, Void, Boolean> {
         final String SOAP_ACTION = "http://ws/listaDeFuncoes";
         final String NAMESPACE = "http://ws/";
         final String METHOD_NAME = "listaDeFuncoes";
-        final String URL = new UrlServerConection().getUrlConection();
+        final String URL ="";// new UrlServerConection().getUrlConection();
         funcaoList = new ArrayList<>();
 
         try {

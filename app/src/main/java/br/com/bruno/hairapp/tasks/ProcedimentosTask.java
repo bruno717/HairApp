@@ -39,7 +39,7 @@ public class ProcedimentosTask extends AsyncTask<Void, Void, Boolean> {
         final String SOAP_ACTION = "http://ws/listaDeProcedimentos";
         final String NAMESPACE = "http://ws/";
         final String METHOD_NAME = "listaDeProcedimentos";
-        final String URL = new UrlServerConection().getUrlConection();
+        final String URL ="";// new UrlServerConection().getUrlConection();
         listProcedimentos = new ArrayList<>();
 
         try {

@@ -39,7 +39,7 @@ public class AgendaClienteTask extends AsyncTask<Void, Void, Boolean> {
         final String SOAP_ACTION = "http://ws/listaAgendaCliente";
         final String NAMESPACE = "http://ws/";
         final String METHOD_NAME = "listaAgendaCliente";
-        final String URL = new UrlServerConection().getUrlConection();
+        final String URL = "";//new UrlServerConection().getUrlConection();
         agendaClienteList = new ArrayList<>();
 
         try {

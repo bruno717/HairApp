@@ -5,9 +5,8 @@ package br.com.bruno.hairapp.tasks;
  */
 public class UrlServerConection {
 
-    private static final String URL = "http://192.168.1.3:8084/WsSalaoBeleza/WebServiceSalaoBeleza?wsdl";
+    //private static final String URL = "http://192.168.1.3:8084/WsSalaoBeleza/WebServiceSalaoBeleza?wsdl";
+    public static final String URL = "http://192.168.1.4:8080";
 
-    public String getUrlConection(){
-        return URL;
-    }
+    public static final String LOGIN = "login";
 }

@@ -3,13 +3,8 @@ package br.com.bruno.hairapp;
 import android.app.Activity;
 import android.app.FragmentManager;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.ViewTreeObserver;
-import android.widget.Button;
 import android.widget.FrameLayout;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 import br.com.bruno.hairapp.models.AgendarHorarioSingleton;
 import br.com.bruno.hairapp.utils.ControlerFragments;

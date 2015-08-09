@@ -46,7 +46,7 @@ public class HorariosDisponiveisTask extends AsyncTask<Void, Void, Boolean> {
         final String SOAP_ACTION = "http://ws/listaDeHorariosDisponiveis";
         final String NAMESPACE = "http://ws/";
         final String METHOD_NAME = "listaDeHorariosDisponiveis";
-        final String URL = new UrlServerConection().getUrlConection();
+        final String URL ="";// new UrlServerConection().getUrlConection();
         horariosList = new ArrayList<>();
 
         try {

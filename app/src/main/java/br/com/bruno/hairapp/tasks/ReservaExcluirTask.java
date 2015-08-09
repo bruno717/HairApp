@@ -34,7 +34,7 @@ public class ReservaExcluirTask extends AsyncTask<Void, Void, Boolean> {
         final String SOAP_ACTION = "http://ws/deletaReserva";
         final String NAMESPACE = "http://ws/";
         final String METHOD_NAME = "deletaReserva";
-        final String URL = new UrlServerConection().getUrlConection();
+        final String URL ="";// new UrlServerConection().getUrlConection();
 
         try {
             SoapObject soap = new SoapObject(NAMESPACE, METHOD_NAME);
