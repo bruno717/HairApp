@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <br.com.bruno.hairapp.widgets.CustomFontTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_confirmar_atendimento_atendimento_agendado"
+        android:textColor="@color/label_gray"
+        android:textSize="@dimen/text_titulo"
+        android:gravity="center"
+        app:app_typeface="helveticaneue_bdcn"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider_gray" />
+
+    <!-- Prof -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/perm_group_personal_info"
+            android:layout_marginRight="5dp" />
+
+        <br.com.bruno.hairapp.widgets.CustomFontTextView
+            android:id="@id/fragment_confirmar_atendimento_text_profissional"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Beto"
+            android:textSize="@dimen/text_list"
+            android:textColor="@color/label_gray"
+            android:gravity="center|left"
+            app:app_typeface="helveticaneue_mdcn" />
+
+    </LinearLayout>
+
+    <!-- Data -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_menu_month"
+            android:layout_marginRight="5dp" />
+
+        <br.com.bruno.hairapp.widgets.CustomFontTextView
+            android:id="@id/fragment_confirmar_atendimento_text_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="12/12/2012"
+            android:textSize="@dimen/text_list"
+            android:textColor="@color/label_gray"
+            android:gravity="center|left"
+            app:app_typeface="helveticaneue_mdcn" />
+
+    </LinearLayout>
+
+    <!-- Horário -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/perm_group_system_clock"
+            android:layout_marginRight="5dp" />
+
+        <br.com.bruno.hairapp.widgets.CustomFontTextView
+            android:id="@id/fragment_confirmar_atendimento_text_horario"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="10:30"
+            android:textSize="@dimen/text_list"
+            android:textColor="@color/label_gray"
+            android:gravity="center|left"
+            app:app_typeface="helveticaneue_mdcn" />
+
+    </LinearLayout>
+
+    <!-- Procedimento -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_menu_cut"
+            android:layout_marginRight="5dp" />
+
+        <br.com.bruno.hairapp.widgets.CustomFontTextView
+            android:id="@id/fragment_confirmar_atendimento_text_procedimento"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Corte masculino"
+            android:textSize="@dimen/text_list"
+            android:textColor="@color/label_gray"
+            android:gravity="center|left"
+            app:app_typeface="helveticaneue_mdcn" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <br.com.bruno.hairapp.widgets.CustomFontButton
+            android:id="@id/fragment_confirmar_atendimento_button_cancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fragment_confirmar_atendimento_button_cancelar"
+            android:textColor="@color/label_gray"
+            android:textSize="@dimen/text_button"
+            app:app_typeface="helveticaneue_ltcn"
+            android:drawableTop="@drawable/ic_delete"
+            android:background="@color/light_salmon"
+            android:layout_marginLeft="15dp"
+            android:padding="10dp" />
+
+        <br.com.bruno.hairapp.widgets.CustomFontButton
+            android:id="@id/fragment_confirmar_atendimento_button_confirmar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fragment_confirmar_atendimento_button_confirmar"
+            android:textColor="@color/label_gray"
+            android:textSize="@dimen/text_button"
+            app:app_typeface="helveticaneue_ltcn"
+            android:drawableTop="@drawable/ic_cab_done_holo_light"
+            android:background="@color/salmon"
+            android:padding="10dp"
+            android:layout_marginRight="15dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

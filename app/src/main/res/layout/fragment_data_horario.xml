@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <br.com.bruno.hairapp.widgets.CustomFontTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_data_horario_data"
+        android:textColor="@color/label_gray"
+        android:textSize="@dimen/text_titulo"
+        android:gravity="center"
+        app:app_typeface="helveticaneue_bdcn"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider_gray" />
+
+
+    <br.com.bruno.hairapp.widgets.CustomFontButton
+        android:id="@id/fragment_data_horario_button_data"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:minHeight="80dp"
+        android:background="@drawable/abc_popup_background_mtrl_mult"
+        android:text="__/__/____"
+        android:textColor="@color/label_gray"
+        android:textSize="@dimen/text_list"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        app:app_typeface="helveticaneue_cn" />
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="@color/divider_gray" />-->
+
+    <br.com.bruno.hairapp.widgets.CustomFontTextView
+        android:id="@id/fragment_data_horario_text_horario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_data_horario_horario"
+        android:textColor="@color/label_gray"
+        android:textSize="@dimen/text_titulo"
+        android:gravity="center"
+        app:app_typeface="helveticaneue_bdcn"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider_gray" />
+
+    <ListView
+        android:layout_marginTop="15dp"
+        android:id="@id/fragment_data_horario_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/transparent"/>
+
+</LinearLayout>

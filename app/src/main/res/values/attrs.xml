@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomFontTextView">
+        <attr name="app_typeface" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomFontEditText">
+        <attr name="app_typeface" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomFontButton">
+        <attr name="app_typeface" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomFontAlignButton">
+        <attr name="app_typeface" />
+    </declare-styleable>
+
+    <attr name="app_typeface">
+        <enum name="helveticaneue_bdcn" value="0" />
+        <enum name="helveticaneue_mdcn" value="1" />
+        <enum name="helveticaneue_lt" value="2" />
+        <enum name="helveticaneue_ltcn" value="3" />
+        <enum name="helveticaneue_cn" value="4" />
+    </attr>
+
+</resources>

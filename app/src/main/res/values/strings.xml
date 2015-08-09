@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hair App</string>
+
+    <!-- Main -->
+    <string name="fragment_menu_txt_agendar_atendimento">Agendar atendimento</string>
+    <string name="fragment_menu_txt_minha_agenda">Minha agenda</string>
+
+    <!-- Função -->
+    <string name="fragment_funcao_atividade">Atividade</string>
+
+    <!-- Funcionário -->
+    <string name="fragment_funcionario_profissional">Profissional</string>
+
+    <!-- Data e horário -->
+    <string name="fragment_data_horario_data">Data</string>
+    <string name="fragment_data_horario_horario">Horário</string>
+
+    <!-- Procedimento -->
+    <string name="fragment_procedimento_text_procedimento">Procedimento</string>
+
+    <!-- Confirmar atendimento -->
+    <string name="fragment_confirmar_atendimento_atendimento_agendado">Confirmar atendimento</string>
+    <string name="fragment_confirmar_atendimento_button_confirmar">Confirmar</string>
+    <string name="fragment_confirmar_atendimento_button_cancelar">Cancelar</string>
+
+    <!-- Minha agenda -->
+    <string name="fragment_minha_agenda_cancelar">Cancelar</string>
+    <string name="fragment_minha_agenda_minha_agenda">Minha agenda</string>
+
+    <!-- Login -->
+    <string name="activity_login_usuario">Usuário</string>
+    <string name="activity_login_senha">Senha</string>
+    <string name="activity_login_entrar">Entrar</string>
+    <string name="activity_login_inscrever_se">Inscrever-se</string>
+    <string name="activity_login_esqueci_minha_senha">Esqueceu sua senha?</string>
+
+</resources>

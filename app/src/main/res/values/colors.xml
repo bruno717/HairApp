@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="orange">#FFA500</color>
+    <color name="light_salmon">#88FFA07A</color>
+    <color name="salmon">#22FF7F50</color>
+    <color name="orange_red">#FF4500</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="divider_gray">#fff1f1f1</color>
+    <color name="label_gray">#919090</color>
+    <color name="light_blue">#218C8D</color>
+    <color name="light_blue_light">#2DBDBD</color>
+</resources>

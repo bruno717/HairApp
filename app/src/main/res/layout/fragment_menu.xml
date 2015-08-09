@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <br.com.bruno.hairapp.widgets.CustomFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/label_gray"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:textSize="@dimen/text_titulo"
+        app:app_typeface="helveticaneue_bdcn" />
+
+
+    <!-- opções do menu -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_gray" />
+
+        <!-- agendar atendimento -->
+        <LinearLayout
+            android:id="@id/fragment_menu_linear_agendar_atendimento"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+
+            <br.com.bruno.hairapp.widgets.CustomFontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fragment_menu_txt_agendar_atendimento"
+                android:textColor="@color/label_gray"
+                android:textSize="@dimen/text_list"
+                android:drawableLeft="@drawable/perm_group_system_clock"
+                android:drawablePadding="20dp"
+                android:layout_marginLeft="25dp"
+                app:app_typeface="helveticaneue_mdcn" />
+
+        </LinearLayout>
+        <!-- fim agendar atendimento -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_gray" />
+
+        <!-- minha agenda -->
+        <LinearLayout
+            android:id="@id/fragment_menu_linear_minha_agenda"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <br.com.bruno.hairapp.widgets.CustomFontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fragment_menu_txt_minha_agenda"
+                android:textColor="@color/label_gray"
+                android:textSize="@dimen/text_list"
+                android:drawableLeft="@drawable/ic_menu_month"
+                android:drawablePadding="20dp"
+                android:layout_marginLeft="25dp"
+                app:app_typeface="helveticaneue_mdcn" />
+
+        </LinearLayout>
+        <!-- fim minha agenda -->
+    </LinearLayout>
+    <!-- fim opções do menu -->
+</RelativeLayout>

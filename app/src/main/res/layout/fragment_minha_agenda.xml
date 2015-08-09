@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <br.com.bruno.hairapp.widgets.CustomFontTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_minha_agenda_minha_agenda"
+        android:textColor="@color/label_gray"
+        android:textSize="@dimen/text_titulo"
+        android:gravity="center"
+        app:app_typeface="helveticaneue_bdcn"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider_gray" />
+
+    <ListView
+        android:id="@id/fragment_minha_agenda_list"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

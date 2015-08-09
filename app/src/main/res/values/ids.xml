@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main -->
+    <item name="activity_main_frame_menu" type="id" />
+    <item name="activity_main_frame_conteudo" type="id" />
+
+    <!-- Menu -->
+    <item name="fragment_menu_linear_agendar_atendimento" type="id" />
+    <item name="fragment_menu_linear_minha_agenda" type="id" />
+
+    <!-- Atividade -->
+    <item name="fragment_funcao_list" type="id" />
+
+    <!-- Funcionário -->
+    <item name="fragment_funcionario_list" type="id" />
+
+    <!-- Data -->
+    <item name="fragment_data_horario_button_data" type="id" />
+    <item name="fragment_data_horario_list" type="id" />
+    <item name="fragment_data_horario_text_horario" type="id" />
+
+    <!-- Procedimento -->
+    <item name="fragment_procedimento_list" type="id" />
+
+    <!-- Confimar atendimento -->
+    <item name="fragment_confirmar_atendimento_text_profissional" type="id" />
+    <item name="fragment_confirmar_atendimento_text_data" type="id" />
+    <item name="fragment_confirmar_atendimento_text_horario" type="id" />
+    <item name="fragment_confirmar_atendimento_text_procedimento" type="id" />
+    <item name="fragment_confirmar_atendimento_button_confirmar" type="id" />
+    <item name="fragment_confirmar_atendimento_button_cancelar" type="id" />
+
+    <!-- Item da list agendar atendimento -->
+    <item name="agendar_atendimento_item_list" type="id" />
+
+    <!-- Minha agenda -->
+    <item name="fragment_minha_agenda_text_profissional" type="id" />
+    <item name="fragment_minha_agenda_text_data" type="id" />
+    <item name="fragment_minha_agenda_text_horario" type="id" />
+    <item name="fragment_minha_agenda_text_procedimento" type="id" />
+    <item name="fragment_minha_agenda_button_cancelar" type="id" />
+    <item name="fragment_minha_agenda_list" type="id" />
+
+
+
+</resources>

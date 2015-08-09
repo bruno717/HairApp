@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:minHeight="80dp"
+    android:background="@drawable/abc_popup_background_mtrl_mult"
+    android:gravity="center_vertical">
+
+    <br.com.bruno.hairapp.widgets.CustomFontTextView
+        android:id="@id/agendar_atendimento_item_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cabeleireiro"
+        android:textColor="@color/label_gray"
+        android:textSize="@dimen/text_list"
+        app:app_typeface="helveticaneue_cn"
+        android:gravity="center" />
+
+</RelativeLayout>

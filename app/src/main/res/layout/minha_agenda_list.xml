@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- Prof -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/perm_group_personal_info"
+                android:layout_marginRight="5dp" />
+
+            <br.com.bruno.hairapp.widgets.CustomFontTextView
+                android:id="@id/fragment_minha_agenda_text_profissional"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Beto"
+                android:textSize="@dimen/text_list"
+                android:textColor="@color/label_gray"
+                android:gravity="center|left"
+                app:app_typeface="helveticaneue_mdcn" />
+
+        </LinearLayout>
+
+        <!-- Data -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_menu_month"
+                android:layout_marginRight="5dp" />
+
+            <br.com.bruno.hairapp.widgets.CustomFontTextView
+                android:id="@id/fragment_minha_agenda_text_data"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="12/12/2012"
+                android:textSize="@dimen/text_list"
+                android:textColor="@color/label_gray"
+                android:gravity="center|left"
+                app:app_typeface="helveticaneue_mdcn" />
+
+        </LinearLayout>
+
+        <!-- Horário -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/perm_group_system_clock"
+                android:layout_marginRight="5dp" />
+
+            <br.com.bruno.hairapp.widgets.CustomFontTextView
+                android:id="@id/fragment_minha_agenda_text_horario"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="10:30"
+                android:textSize="20sp"
+                android:textColor="@color/label_gray"
+                android:gravity="center|left"
+                app:app_typeface="helveticaneue_mdcn" />
+
+        </LinearLayout>
+
+        <!-- Procedimento -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_menu_cut"
+                android:layout_marginRight="5dp" />
+
+            <br.com.bruno.hairapp.widgets.CustomFontTextView
+                android:id="@id/fragment_minha_agenda_text_procedimento"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Corte masculino"
+                android:textSize="@dimen/text_list"
+                android:textColor="@color/label_gray"
+                android:gravity="center|left"
+                app:app_typeface="helveticaneue_mdcn" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <br.com.bruno.hairapp.widgets.CustomFontTextView
+        android:id="@id/fragment_minha_agenda_button_cancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:drawableTop="@drawable/ic_menu_delete"
+        android:background="@color/transparent"
+        android:text="@string/fragment_minha_agenda_cancelar"
+        android:textSize="@dimen/text_button"
+        android:textColor="@color/label_gray"
+        app:app_typeface="helveticaneue_ltcn"
+        android:layout_marginRight="15dp"/>
+</RelativeLayout>
+

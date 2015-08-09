@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient_blue"
+    android:gravity="center"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <br.com.bruno.hairapp.widgets.CustomFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_titulo"
+        app:app_typeface="helveticaneue_bdcn" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp">
+
+        <br.com.bruno.hairapp.widgets.CustomFontEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/activity_login_usuario"
+            android:textColorHint="@color/silver"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@null" />
+
+        <br.com.bruno.hairapp.widgets.CustomFontEditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/activity_login_senha"
+            android:textColorHint="@color/silver"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@null" />
+    </LinearLayout>
+
+    <br.com.bruno.hairapp.widgets.CustomFontButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_login_entrar"
+        android:textSize="@dimen/text_button"
+        android:background="@color/salmon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <br.com.bruno.hairapp.widgets.CustomFontButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_login_inscrever_se"
+            android:textSize="@dimen/text_button"
+            android:background="@color/light_blue"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" />
+
+        <br.com.bruno.hairapp.widgets.CustomFontButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_login_esqueci_minha_senha"
+            android:textSize="13sp"
+            android:background="@color/salmon"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>
