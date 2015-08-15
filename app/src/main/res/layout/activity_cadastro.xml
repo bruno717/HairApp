@@ -26,10 +26,10 @@
         android:orientation="vertical">
 
         <br.com.bruno.hairapp.widgets.CustomFontEditText
-            android:id="@id/activity_cadastro_edit_usuario"
+            android:id="@id/activity_cadastro_edit_email"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:hint="@string/activity_login_usuario"
+            android:hint="@string/activity_login_email"
             android:textColor="@color/black"
             android:textColorHint="@color/silver"
             android:textCursorDrawable="@null" />

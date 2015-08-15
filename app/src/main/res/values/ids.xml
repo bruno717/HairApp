@@ -43,7 +43,7 @@
     <item name="fragment_minha_agenda_list" type="id" />
 
     <!-- Minha agenda -->
-    <item name="activity_cadastro_edit_usuario" type="id" />
+    <item name="activity_cadastro_edit_email" type="id" />
     <item name="activity_cadastro_edit_senha" type="id" />
     <item name="activity_cadastro_edit_lembrete_senha" type="id" />
     <item name="activity_cadastro_button_cadastro" type="id" />

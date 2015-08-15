@@ -24,6 +24,7 @@ import java.util.Locale;
 
 import br.com.bruno.hairapp.models.MyHttpEntity;
 import br.com.bruno.hairapp.models.Usuario;
+import br.com.bruno.hairapp.utils.Autenticacao;
 import br.com.bruno.hairapp.utils.ConfigAuthentication;
 
 /**
@@ -31,7 +32,6 @@ import br.com.bruno.hairapp.utils.ConfigAuthentication;
  */
 public class ClientesCadastroTask extends AsyncTask<Void, Void, Boolean> {
 
-    //private List<Usuario> mUsuarios;
     private OnReturnListProdutos mListener;
     private Usuario usuario;
     private MyHttpEntity myHttpEntity;
@@ -51,6 +51,7 @@ public class ClientesCadastroTask extends AsyncTask<Void, Void, Boolean> {
 
         MultiValueMap<String, String> headers = new LinkedMultiValueMap<String, String>();
         myHttpEntity = MyHttpEntity.getInstance();
+
         headers.add(ConfigAuthentication.COOKIE, myHttpEntity.getSessionId());
         HttpEntity httpEntity = new HttpEntity<Object>(usuario, headers);
 

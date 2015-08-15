@@ -11,11 +11,11 @@ import br.com.bruno.hairapp.tasks.AutenticacaoTask;
  */
 public class Autenticacao {
 
-    public void auteticar(final Context context){
+    public void auteticar(){
         AutenticacaoTask autenticacaoTask = new AutenticacaoTask(new AutenticacaoTask.OnReturnListProdutos() {
             @Override
             public void onCompletion(String users) {
-                Toast.makeText(context, users, Toast.LENGTH_LONG).show();
+
             }
 
             @Override

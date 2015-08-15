@@ -30,7 +30,7 @@
     <string name="fragment_minha_agenda_minha_agenda">Minha agenda</string>
 
     <!-- Login -->
-    <string name="activity_login_usuario">Usuário</string>
+    <string name="activity_login_email">E-mail</string>
     <string name="activity_login_senha">Senha</string>
     <string name="activity_login_entrar">Entrar</string>
     <string name="activity_login_inscrever_se">Inscrever-se</string>

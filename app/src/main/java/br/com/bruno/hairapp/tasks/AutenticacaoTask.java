@@ -58,14 +58,12 @@ public class AutenticacaoTask extends AsyncTask<Void, Void, Boolean> {
         restTemplate.getMessageConverters().add(new StringHttpMessageConverter());
         try {
             ResponseEntity<String> response = restTemplate.exchange(url, HttpMethod.POST, requestEntity, String.class);
-            strResponse = response.getBody();
-            Log.i("Funcionou", strResponse);
+            Log.i("Funcionou", myHttpEntity.getSessionId());
             myHttpEntity.setSessionId(response.getHeaders().getFirst(ConfigAuthentication.SET_COOKIE));
             return true;
         } catch (Exception e) {
             Log.e("Erro", e.getLocalizedMessage(), e);
         }
-
 
         return false;
     }
@@ -73,7 +71,7 @@ public class AutenticacaoTask extends AsyncTask<Void, Void, Boolean> {
     @Override
     protected void onPostExecute(Boolean success) {
         if (mListener != null) {
-            if (success) mListener.onCompletion(strResponse);
+            if (success) mListener.onCompletion(myHttpEntity.getSessionId());
             else mListener.onError();
         }
     }
